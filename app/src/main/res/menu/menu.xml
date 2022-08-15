@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sair"
+        android:title="Sair"/>
+
+    <item
+        android:id="@+id/contatos"
+        android:title="Contato"/>
+
+    <item
+        android:id="@+id/configuração"
+        android:title="Configutações"/>
+</menu>

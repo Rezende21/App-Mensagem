@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RegisterFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_nome_register"
+        android:layout_width="match_parent"
+        android:hint="@string/name"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:hint="@string/email"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/edit_nome_register"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_password_register"
+        android:layout_width="match_parent"
+        android:hint="@string/password"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/edit_email"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/bt_cadastro"
+        android:layout_width="match_parent"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/edit_password_register"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

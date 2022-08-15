@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "164533100050",
+    "project_id": "lesttalk-d2b99",
+    "storage_bucket": "lesttalk-d2b99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164533100050:android:3bacc00c5067ab34c582cb",
+        "android_client_info": {
+          "package_name": "com.example.lesttalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164533100050-a0q94rj0g0kkf380qdab84k8fjpr42qn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVN3alWSCiKfmv3RQHLlJaiIJDD6zmAg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164533100050-a0q94rj0g0kkf380qdab84k8fjpr42qn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
